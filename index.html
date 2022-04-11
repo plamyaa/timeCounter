@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Count your time</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Enter date: </h2>
+        <form onsubmit="return false" class="form__input"></form>
+            <input type="number" placeholder="DD" id="time__input-day">
+            <input type="number" placeholder="MM" id="time__input-month">
+            <input type="number" placeholder="YYYY" id="time__input-year">
+            <button class="time__button">Calculate</button>
+        </form>
+        <h1>Different:</h1>
+        <div class="time__output">
+            <div class="time__output-div">
+                <p>In hours: </p>
+                <p id="time__output-hour">0</p>
+            </div>
+            <div class="time__output-div">
+                <p>In days: </p>
+                <p id="time__output-day">0</p>
+            </div>
+            <div class="time__output-div">
+                <p>In months: </p>
+                <p id="time__output-month">0</p>
+            </div>   
+            <div class="time__output-div">
+                <p>In years: </p>
+                <p id="time__output-year">0</p>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>

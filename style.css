@@ -1,0 +1,24 @@
+.container {
+    margin: 50px auto auto;
+    text-align: center;
+}
+#time__input-day, #time__input-month, #time__input-year {
+    width: 50px;
+}
+#time__output-hour, #time__output-day, #time__output-month, #time__output-year {
+    margin-left: 5px;
+    width: 30px;
+}
+.time__output-div {
+    display: flex;
+    justify-content: center;
+}
+p {
+    margin: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
